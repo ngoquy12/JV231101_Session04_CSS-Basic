@@ -1,0 +1,26 @@
+- CSS là cụm từ  viết tắt của Cascading Style Sheets
+- Nó được sử dụng để thay đổi, cấu trúc lại layout và chỉnh sửa kiểu của các thẻ HTML
+- Các cách nhúng CSS và trong HTML : 3 cách
+  + Cách 1: Inline => CSS bằng cách đặt thuộc tính style bên trong cặp thẻ mở của thẻ HTML
+  + Cách 2: Internal => Đặt một cặp thẻ style bên trong phần head của file HTML
+  + Cách 3: External => Tạo ra một file có đuôi là .css và sau đấy sẽ liên kết file css đấy bằng thẻ Link 
+  được đặt bên trong phần head của file HTML
+
+
+- Độ ưu tiên trong CSS
+  + Inline Có độ ưu tiên lớn nhất
+  + Internal và External có độ ưu tiên ngang nhau, tuy nhiên nó sẽ lấy CSS sau làm kết quả
+  + Thông thường thì chúng ta sẽ dùng cách CSS External (Gọn code, tái sử dụng lại)
+
+- Cách bộ chọn (Selector) thông dụng trong CSS
+  + "*": Lựa chọn tất cả các thẻ có bên trong file HTML
+  + "Tên thẻ": Lựa chọn những thẻ cần CSS trong file HTML
+  + "id": Lựa chọn id để CSS
+  + "class": Lựa chọn class để CSS
+
+- Tên class bao bọc các thành phần của trang web
++ main
++ container
++ wrapper
+
+- Selector cha sẽ ảnh hưởng trực tiếp đén selector con bên trong
